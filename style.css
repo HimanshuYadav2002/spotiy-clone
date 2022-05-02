@@ -1,0 +1,137 @@
+#navbar {
+    background-color: black;
+    padding: 0% 15%;
+}
+
+#spotify-premium {
+    background-color: #993399;
+    padding: 0% 15%;
+}
+
+.navbar {
+    background-color: black;
+    text-align: left;
+    padding: 20px 0px 20px 0px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+
+i {
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 0px;
+
+}
+
+h2 {
+    color: white;
+    display: inline-block;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 12px;
+    margin-top: 40px;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h1,
+h4 {
+    color: white;
+}
+
+h6:hover {
+    color: #3dd454;
+}
+
+.verticalLine {
+    border-left: white solid thin;
+    width: 1px;
+    height: 16px;
+    display: inline-block;
+    margin: 13px 10px;
+}
+
+
+
+.btn {
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 14px 32px;
+    font-weight: 600;
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+}
+
+.premiumtext {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0px;
+}
+
+.imgcol {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px;
+}
+
+@media(max-width: 600px) {
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imgcol {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .premiumtext {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media(max-width:1080px) {
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .imgcol {
+        margin-top: 0px;
+    }
+}
